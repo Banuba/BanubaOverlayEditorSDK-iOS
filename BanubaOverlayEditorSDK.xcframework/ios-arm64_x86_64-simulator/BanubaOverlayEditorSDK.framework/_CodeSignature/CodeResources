@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		o49QXthO4qhHAN9EWwaRwKCHplw=
+		c2petJuNQMMubD8bUTCJvWP9F1c=
 		</data>
 		<key>InteractiveInterestViewController.storyboardc/Info.plist</key>
 		<data>
@@ -122,19 +122,19 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		cANMXEYNluwTMzbXucL42MVVtAI=
+		nihyJLHwoR7M3+i/qDVvABArmtc=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		cANMXEYNluwTMzbXucL42MVVtAI=
+		nihyJLHwoR7M3+i/qDVvABArmtc=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		pKyEG8SQacAHCV3nyEZsS3N4tZc=
+		6m9S6Ih8dL4Ja4QfGyvK+GoR6NA=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		pKyEG8SQacAHCV3nyEZsS3N4tZc=
+		6m9S6Ih8dL4Ja4QfGyvK+GoR6NA=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1xobuqIITEZ4qi23FDzTyj5c2Vs=
+		N6l7k+ucYLd4nsCXW93RSPh06LM=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1xobuqIITEZ4qi23FDzTyj5c2Vs=
+		N6l7k+ucYLd4nsCXW93RSPh06LM=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L40u99ZWkn9Et5BEp2cskEeIQH8=
+		i0aZvEQjODU/Mor/9KGDpBF8524=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		L40u99ZWkn9Et5BEp2cskEeIQH8=
+		i0aZvEQjODU/Mor/9KGDpBF8524=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -391,28 +391,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SdLO0Efryxk0AeWfWHqU9DFuod0MuMGnUCh6zMU8LuI=
+			GfsYsTyflMXH6Jx/yNY2Oo8bYbb3KujksIskZ7+pEtg=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SdLO0Efryxk0AeWfWHqU9DFuod0MuMGnUCh6zMU8LuI=
+			GfsYsTyflMXH6Jx/yNY2Oo8bYbb3KujksIskZ7+pEtg=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UJx3SUSPEschWs/iC/QqiqsAiGZz0cpsI+Rg5lRX1n8=
+			uWBej51AG3ffYyvROmeK+3enDXkY5wKTD0JfeAQbI0o=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UJx3SUSPEschWs/iC/QqiqsAiGZz0cpsI+Rg5lRX1n8=
+			uWBej51AG3ffYyvROmeK+3enDXkY5wKTD0JfeAQbI0o=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -433,7 +433,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVl3sXp2ZIjK8WOLxXCf+Zn6Kpd/mtPs5matPaUiutw=
+			s8o4r0DOmsSP0fIZL3Yyc58KB7Sj+tErQc02+ginfiU=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64.swiftdoc</key>
@@ -454,7 +454,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVl3sXp2ZIjK8WOLxXCf+Zn6Kpd/mtPs5matPaUiutw=
+			s8o4r0DOmsSP0fIZL3Yyc58KB7Sj+tErQc02+ginfiU=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -475,7 +475,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LC51F3KfQmVL86ukoe2Exv+T9GMM0+skqXE30cmgvLE=
+			rFaCdC5gQEVLxYt2kiuGF6+chKoClwoVdiZFTVUtv84=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -496,7 +496,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LC51F3KfQmVL86ukoe2Exv+T9GMM0+skqXE30cmgvLE=
+			rFaCdC5gQEVLxYt2kiuGF6+chKoClwoVdiZFTVUtv84=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
