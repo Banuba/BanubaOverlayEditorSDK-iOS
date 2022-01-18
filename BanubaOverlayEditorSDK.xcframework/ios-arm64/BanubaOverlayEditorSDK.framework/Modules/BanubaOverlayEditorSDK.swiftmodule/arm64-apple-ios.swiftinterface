@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaOverlayEditorSDK
 import AVFoundation
 @_exported import BanubaOverlayEditorSDK
@@ -200,6 +200,7 @@ public enum VideoEditorInteractiveType {
 public protocol OverlayEditorPlayablePreview : BanubaOverlayEditorSDK.OverlayItemDisplayable, BanubaUtilities.PlayablePreview {
 }
 @_hasMissingDesignatedInitializers final public class OverlayItemLinePosition : Swift.Equatable, Swift.Hashable {
+  final public var orderNumber: Swift.Int
   public static func == (lhs: BanubaOverlayEditorSDK.OverlayItemLinePosition, rhs: BanubaOverlayEditorSDK.OverlayItemLinePosition) -> Swift.Bool
   final public func hash(into hasher: inout Swift.Hasher)
   @objc deinit
@@ -230,6 +231,7 @@ public protocol OverlayItem {
   var transform: CoreGraphics.CGAffineTransform { get set }
   var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`? { get }
   var position: BanubaOverlayEditorSDK.OverlayItemLinePosition? { get set }
+  var order: Swift.Int { get set }
 }
 public enum OverlayItemPresentationStyle : Swift.Equatable {
   case text(Swift.String)
@@ -277,7 +279,8 @@ public struct InteractiveTest : BanubaOverlayEditorSDK.OverlayItem {
   public var transform: CoreGraphics.CGAffineTransform
   public var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`?
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
-  public init(id: Swift.String, title: Swift.String, image: UIKit.UIImage, color: BanubaOverlayEditorSDK.GradientColorPair, fields: [BanubaOverlayEditorSDK.InteractiveTestFieldData], startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity)
+  public var order: Swift.Int
+  public init(id: Swift.String, title: Swift.String, image: UIKit.UIImage, color: BanubaOverlayEditorSDK.GradientColorPair, fields: [BanubaOverlayEditorSDK.InteractiveTestFieldData], startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
 }
 public struct InteractiveTestFieldData {
   public var answer: Swift.String
@@ -304,6 +307,7 @@ public protocol OverlayItemProducersViewControllerFactory : AnyObject {
 }
 public class BanubaOverlayEditor {
   weak public var delegate: BanubaOverlayEditorSDK.BanubaOverlayEditorDelegate?
+  final public let configuration: BanubaOverlayEditorSDK.OverlayEditorConfiguration
   public init(overlayEditorConfiguration: BanubaOverlayEditorSDK.OverlayEditorConfiguration, playablePreview: BanubaOverlayEditorSDK.OverlayEditorPlayablePreview, timeLineDataSource: BanubaUtilities.TimeLineDataSource, overlayItemProducersViewControllerFactory: BanubaOverlayEditorSDK.OverlayItemProducersViewControllerFactory)
   public func presentOverlayEditor(from hostController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)?)
   public func dismissOverlayEditor(animated: Swift.Bool, completion: (() -> Swift.Void)?)
@@ -360,7 +364,8 @@ public struct InteractiveInterest : BanubaOverlayEditorSDK.OverlayItem {
   public var transform: CoreGraphics.CGAffineTransform
   public var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`?
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
-  public init(id: Swift.String, image: UIKit.UIImage, title: Swift.String, font: UIKit.UIFont, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity)
+  public var order: Swift.Int
+  public init(id: Swift.String, image: UIKit.UIImage, title: Swift.String, font: UIKit.UIFont, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
 }
 public struct InteractivePoll : BanubaOverlayEditorSDK.OverlayItem {
   public var id: Swift.String
@@ -380,7 +385,8 @@ public struct InteractivePoll : BanubaOverlayEditorSDK.OverlayItem {
   public var transform: CoreGraphics.CGAffineTransform
   public var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`?
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
-  public init(id: Swift.String, image: UIKit.UIImage, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, title: Swift.String, leftCardText: Swift.String, rightCardText: Swift.String, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity)
+  public var order: Swift.Int
+  public init(id: Swift.String, image: UIKit.UIImage, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, title: Swift.String, leftCardText: Swift.String, rightCardText: Swift.String, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
 }
 public protocol OverlayItemConsumable : UIKit.UIViewController {
   func getExistingOverlayItems() -> [BanubaOverlayEditorSDK.OverlayItem]
@@ -425,5 +431,6 @@ public struct EditorQuestion : BanubaOverlayEditorSDK.OverlayItem {
   public var transform: CoreGraphics.CGAffineTransform
   public var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`?
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
-  public init(id: Swift.String, text: Swift.String, color: BanubaOverlayEditorSDK.GradientColorPair, image: UIKit.UIImage, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity)
+  public var order: Swift.Int
+  public init(id: Swift.String, text: Swift.String, color: BanubaOverlayEditorSDK.GradientColorPair, image: UIKit.UIImage, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
 }
