@@ -5,9 +5,12 @@ import AVFoundation
 @_exported import BanubaOverlayEditorSDK
 import BanubaUtilities
 import CoreGraphics
+import CoreMedia
 import Foundation
 import Swift
 import UIKit
+import VEEffectsSDK
+import VEPlaybackSDK
 import _Concurrency
 public struct OverlayEditorConfiguration {
   public var mainOverlayViewControllerConfig: BanubaOverlayEditorSDK.MainOverlayViewControllerConfig
@@ -50,6 +53,7 @@ public struct OverlayAddButtonConfig {
   public enum `Type` : Swift.String {
     case text
     case sticker
+    case pixelate
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -61,7 +65,8 @@ public struct OverlayAddButtonConfig {
   public let titleColor: UIKit.UIColor
   public var font: UIKit.UIFont
   public let imageName: Swift.String
-  public init(type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`, title: Swift.String, titleColor: UIKit.UIColor, font: UIKit.UIFont, imageName: Swift.String)
+  public var drawableFigure: BanubaUtilities.DrawableFigure?
+  public init(type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`, title: Swift.String, titleColor: UIKit.UIColor, font: UIKit.UIFont, imageName: Swift.String, drawableFigure: BanubaUtilities.DrawableFigure? = nil)
 }
 @available(*, unavailable, renamed: "OverlayAddButtonConfig")
 public struct OverlayEditorEditButtonConfig {
@@ -197,7 +202,7 @@ public enum VideoEditorInteractiveType {
     get
   }
 }
-public protocol OverlayEditorPlayablePreview : BanubaOverlayEditorSDK.OverlayItemDisplayable, BanubaUtilities.PlayablePreview {
+public protocol OverlayEditorPlayablePreview : BanubaOverlayEditorSDK.OverlayItemDisplayable, VEPlaybackSDK.PlayableViewController {
 }
 @_hasMissingDesignatedInitializers final public class OverlayItemLinePosition : Swift.Equatable, Swift.Hashable {
   final public var orderNumber: Swift.Int
@@ -236,6 +241,7 @@ public protocol OverlayItem {
 public enum OverlayItemPresentationStyle : Swift.Equatable {
   case text(Swift.String)
   case image(UIKit.UIImage)
+  case pixelate(Swift.String)
   public static func == (a: BanubaOverlayEditorSDK.OverlayItemPresentationStyle, b: BanubaOverlayEditorSDK.OverlayItemPresentationStyle) -> Swift.Bool
 }
 public protocol InteractivePickerViewControllerDelegate : AnyObject {
@@ -287,10 +293,36 @@ public struct InteractiveTestFieldData {
   public var isAnswer: Swift.Bool
   public init(answer: Swift.String, isAnswer: Swift.Bool)
 }
+public class VideoOverlayObjectWithPixelate : BanubaOverlayEditorSDK.OverlayItem {
+  public var pixelateEffectId: Swift.UInt
+  public var pixelateCoordinateParams: BanubaUtilities.PixelateCoordinateParams
+  final public let id: Swift.String
+  public var image: UIKit.UIImage
+  public var pixelateView: UIKit.UIView
+  public var pixelateFigure: BanubaUtilities.DrawableFigure
+  public var startTime: CoreMedia.CMTime
+  public var endTime: CoreMedia.CMTime
+  public var presentationStyle: BanubaOverlayEditorSDK.OverlayItemPresentationStyle {
+    get
+  }
+  public var isEditable: Swift.Bool {
+    get
+  }
+  public var frame: CoreGraphics.CGRect
+  public var transform: CoreGraphics.CGAffineTransform
+  public var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`?
+  public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
+  public var order: Swift.Int
+  public init(id: Swift.String, pixelateEffectId: Swift.UInt, pixelateView: UIKit.UIView, pixelateFigure: BanubaUtilities.DrawableFigure, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, pixelateCoordinateParams: BanubaUtilities.PixelateCoordinateParams, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int = .zero)
+  @objc deinit
+}
 public protocol BanubaOverlayEditorDelegate : AnyObject {
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChooseOverlayWithId id: Swift.String)
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didAddPixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChangePixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didDeletePixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
   func banubaOverlayEditorDidDone(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, withOverlayItems overlayItems: [BanubaOverlayEditorSDK.OverlayItem]?)
   func banubaOverlayEditorDidCancel(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor)
-  func banubaOverlayEditorNeedsToUpdatePlayer(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor)
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didPresent message: Swift.String)
 }
 public protocol OverlayItemProducibleViewControllerDelegate : AnyObject {
@@ -395,9 +427,12 @@ public protocol OverlayItemConsumable : UIKit.UIViewController {
   func removeOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
 }
 public protocol OverlayItemDisplayable : BanubaOverlayEditorSDK.OverlayItemConsumable {
+  var needsToSelectOverlayItemLineView: ((Swift.String) -> Swift.Void)? { get set }
   func hideOverlayItems()
   func showOverlayItems()
   func reloadOverlayItems()
+  func didVideoPlay(atTime time: CoreMedia.CMTime)
+  func deselectAllOverlayItems()
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class InteractiveTestViewController : UIKit.UIViewController, BanubaOverlayEditorSDK.OverlayItemProducibleViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: BanubaOverlayEditorSDK.OverlayItemProducibleViewControllerDelegate?

@@ -301,6 +301,7 @@ SWIFT_CLASS("_TtC22BanubaOverlayEditorSDK29InteractiveTestViewController")
 
 
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -605,6 +606,7 @@ SWIFT_CLASS("_TtC22BanubaOverlayEditorSDK29InteractiveTestViewController")
 - (void)textViewDidChangeSelection:(UITextView * _Nonnull)textView;
 - (void)textViewDidChange:(UITextView * _Nonnull)textView;
 @end
+
 
 
 
