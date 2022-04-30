@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaOverlayEditorSDK
 import AVFoundation
 @_exported import BanubaOverlayEditorSDK
@@ -253,12 +253,12 @@ public protocol InteractivePickerViewControllerDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class InteractivePickerViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var slideInTransitioningDelegate: UIKit.UIViewControllerTransitioningDelegate? {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) weak public var delegate: BanubaOverlayEditorSDK.InteractivePickerViewControllerDelegate?
   @_Concurrency.MainActor(unsafe) public var configuration: BanubaOverlayEditorSDK.InteractivesPickerConfiguration? {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
@@ -469,3 +469,26 @@ public struct EditorQuestion : BanubaOverlayEditorSDK.OverlayItem {
   public var order: Swift.Int
   public init(id: Swift.String, text: Swift.String, color: BanubaOverlayEditorSDK.GradientColorPair, image: UIKit.UIImage, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
 }
+extension BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type` : Swift.Equatable {}
+extension BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type` : Swift.Hashable {}
+extension BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type` : Swift.RawRepresentable {}
+@available(*, unavailable, renamed: "OverlayAddButtonConfig")
+extension BanubaOverlayEditorSDK.OverlayEditorEditButtonConfig.`Type` : Swift.Equatable {}
+@available(*, unavailable, renamed: "OverlayAddButtonConfig")
+extension BanubaOverlayEditorSDK.OverlayEditorEditButtonConfig.`Type` : Swift.Hashable {}
+@available(*, unavailable, renamed: "OverlayAddButtonConfig")
+extension BanubaOverlayEditorSDK.OverlayEditorEditButtonConfig.`Type` : Swift.RawRepresentable {}
+@available(*, unavailable, renamed: "OverlayEditButtonConfig")
+extension BanubaOverlayEditorSDK.OverlayEditCompositionButtonConfig.`Type` : Swift.Equatable {}
+@available(*, unavailable, renamed: "OverlayEditButtonConfig")
+extension BanubaOverlayEditorSDK.OverlayEditCompositionButtonConfig.`Type` : Swift.Hashable {}
+@available(*, unavailable, renamed: "OverlayEditButtonConfig")
+extension BanubaOverlayEditorSDK.OverlayEditCompositionButtonConfig.`Type` : Swift.RawRepresentable {}
+extension BanubaOverlayEditorSDK.OverlayEditButtonConfig.`Type` : Swift.Equatable {}
+extension BanubaOverlayEditorSDK.OverlayEditButtonConfig.`Type` : Swift.Hashable {}
+extension BanubaOverlayEditorSDK.OverlayEditButtonConfig.`Type` : Swift.RawRepresentable {}
+extension BanubaOverlayEditorSDK.OverlayControlButtonConfig.`Type` : Swift.Equatable {}
+extension BanubaOverlayEditorSDK.OverlayControlButtonConfig.`Type` : Swift.Hashable {}
+extension BanubaOverlayEditorSDK.OverlayControlButtonConfig.`Type` : Swift.RawRepresentable {}
+extension BanubaOverlayEditorSDK.VideoEditorInteractiveType : Swift.Equatable {}
+extension BanubaOverlayEditorSDK.VideoEditorInteractiveType : Swift.Hashable {}
