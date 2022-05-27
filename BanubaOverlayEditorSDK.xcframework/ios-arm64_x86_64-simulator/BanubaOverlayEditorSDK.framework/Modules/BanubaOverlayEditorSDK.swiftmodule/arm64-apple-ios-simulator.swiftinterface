@@ -1,9 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaOverlayEditorSDK
 import AVFoundation
 @_exported import BanubaOverlayEditorSDK
 import BanubaUtilities
+import CloudKit
 import CoreGraphics
 import CoreMedia
 import Foundation
@@ -11,6 +12,7 @@ import Swift
 import UIKit
 import VEEffectsSDK
 import VEPlaybackSDK
+import VideoEditor
 import _Concurrency
 public struct OverlayEditorConfiguration {
   public var mainOverlayViewControllerConfig: BanubaOverlayEditorSDK.MainOverlayViewControllerConfig
@@ -54,6 +56,9 @@ public struct OverlayAddButtonConfig {
     case text
     case sticker
     case pixelate
+    public var editioEffectType: VideoEditor.EditorEffectType {
+      get
+    }
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -225,7 +230,7 @@ public protocol OverlayEditorPlayablePreview : BanubaOverlayEditorSDK.OverlayIte
 extension BanubaOverlayEditorSDK.InteractiveInterestViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
-public protocol OverlayItem {
+public protocol OverlayItem : Foundation.NSCopying {
   var id: Swift.String { get }
   var image: UIKit.UIImage { get set }
   var startTime: CoreMedia.CMTime { get set }
@@ -267,7 +272,7 @@ public protocol InteractivePickerViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-public struct InteractiveTest : BanubaOverlayEditorSDK.OverlayItem {
+public class InteractiveTest : BanubaOverlayEditorSDK.OverlayItem {
   public var id: Swift.String
   public var startTime: CoreMedia.CMTime
   public var endTime: CoreMedia.CMTime
@@ -287,6 +292,8 @@ public struct InteractiveTest : BanubaOverlayEditorSDK.OverlayItem {
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
   public var order: Swift.Int
   public init(id: Swift.String, title: Swift.String, image: UIKit.UIImage, color: BanubaOverlayEditorSDK.GradientColorPair, fields: [BanubaOverlayEditorSDK.InteractiveTestFieldData], startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc deinit
 }
 public struct InteractiveTestFieldData {
   public var answer: Swift.String
@@ -314,13 +321,14 @@ public class VideoOverlayObjectWithPixelate : BanubaOverlayEditorSDK.OverlayItem
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
   public var order: Swift.Int
   public init(id: Swift.String, pixelateEffectId: Swift.UInt, pixelateView: UIKit.UIView, pixelateFigure: BanubaUtilities.DrawableFigure, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, pixelateCoordinateParams: BanubaUtilities.PixelateCoordinateParams, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int = .zero)
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc deinit
 }
 public protocol BanubaOverlayEditorDelegate : AnyObject {
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChooseOverlayWithId id: Swift.String)
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didAddPixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChangePixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
-  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didDeletePixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didDeletePixelateItem pixelateItem: BanubaOverlayEditorSDK.OverlayItem)
   func banubaOverlayEditorDidDone(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, withOverlayItems overlayItems: [BanubaOverlayEditorSDK.OverlayItem]?)
   func banubaOverlayEditorDidCancel(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor)
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didPresent message: Swift.String)
@@ -379,8 +387,8 @@ public struct GradientColorPair {
   public var textColor: UIKit.UIColor
   public init(gradientColors: [UIKit.UIColor], textColor: UIKit.UIColor)
 }
-public struct InteractiveInterest : BanubaOverlayEditorSDK.OverlayItem {
-  public let id: Swift.String
+public class InteractiveInterest : BanubaOverlayEditorSDK.OverlayItem {
+  final public let id: Swift.String
   public var image: UIKit.UIImage
   public var title: Swift.String
   public var font: UIKit.UIFont
@@ -398,8 +406,10 @@ public struct InteractiveInterest : BanubaOverlayEditorSDK.OverlayItem {
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
   public var order: Swift.Int
   public init(id: Swift.String, image: UIKit.UIImage, title: Swift.String, font: UIKit.UIFont, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc deinit
 }
-public struct InteractivePoll : BanubaOverlayEditorSDK.OverlayItem {
+public class InteractivePoll : BanubaOverlayEditorSDK.OverlayItem {
   public var id: Swift.String
   public var image: UIKit.UIImage
   public var startTime: CoreMedia.CMTime
@@ -419,11 +429,14 @@ public struct InteractivePoll : BanubaOverlayEditorSDK.OverlayItem {
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
   public var order: Swift.Int
   public init(id: Swift.String, image: UIKit.UIImage, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, title: Swift.String, leftCardText: Swift.String, rightCardText: Swift.String, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc deinit
 }
 public protocol OverlayItemConsumable : UIKit.UIViewController {
   func getExistingOverlayItems() -> [BanubaOverlayEditorSDK.OverlayItem]
   func addOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
   func updateOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
+  func updateOverlayItemOrder(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
   func removeOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
 }
 public protocol OverlayItemDisplayable : BanubaOverlayEditorSDK.OverlayItemConsumable {
@@ -449,7 +462,7 @@ extension BanubaOverlayEditorSDK.InteractiveTestViewController : UIKit.UITextVie
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChangeSelection(_ textView: UIKit.UITextView)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
 }
-public struct EditorQuestion : BanubaOverlayEditorSDK.OverlayItem {
+public class EditorQuestion : BanubaOverlayEditorSDK.OverlayItem {
   public var id: Swift.String
   public var text: Swift.String
   public var color: BanubaOverlayEditorSDK.GradientColorPair
@@ -468,6 +481,8 @@ public struct EditorQuestion : BanubaOverlayEditorSDK.OverlayItem {
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
   public var order: Swift.Int
   public init(id: Swift.String, text: Swift.String, color: BanubaOverlayEditorSDK.GradientColorPair, image: UIKit.UIImage, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, frame: CoreGraphics.CGRect = .zero, transform: CoreGraphics.CGAffineTransform = .identity, order: Swift.Int)
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc deinit
 }
 extension BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type` : Swift.Equatable {}
 extension BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type` : Swift.Hashable {}
