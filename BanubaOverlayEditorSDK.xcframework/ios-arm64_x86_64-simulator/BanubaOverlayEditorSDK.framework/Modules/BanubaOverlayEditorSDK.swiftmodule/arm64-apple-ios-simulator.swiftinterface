@@ -324,6 +324,9 @@ public class VideoOverlayObjectWithPixelate : BanubaOverlayEditorSDK.OverlayItem
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc deinit
 }
+extension BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate : Swift.Equatable {
+  public static func == (lhs: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate, rhs: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate) -> Swift.Bool
+}
 public protocol BanubaOverlayEditorDelegate : AnyObject {
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChooseOverlayWithId id: Swift.String)
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didAddPixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
@@ -438,9 +441,11 @@ public protocol OverlayItemConsumable : UIKit.UIViewController {
   func updateOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
   func updateOverlayItemOrder(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
   func removeOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
+  func moveOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
 }
 public protocol OverlayItemDisplayable : BanubaOverlayEditorSDK.OverlayItemConsumable {
   var needsToSelectOverlayItemLineView: ((Swift.String) -> Swift.Void)? { get set }
+  var needsToSetupStateOverlayItem: ((Swift.String) -> Swift.Void)? { get set }
   func hideOverlayItems()
   func showOverlayItems()
   func reloadOverlayItems()
