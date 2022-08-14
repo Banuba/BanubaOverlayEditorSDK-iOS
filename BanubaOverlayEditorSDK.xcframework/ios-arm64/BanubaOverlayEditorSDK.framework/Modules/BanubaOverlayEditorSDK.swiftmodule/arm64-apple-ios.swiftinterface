@@ -40,12 +40,15 @@ public struct MainOverlayViewControllerConfig {
   public var audioWaveConfiguration: BanubaOverlayEditorSDK.OverlayItemConfiguration
   public var resizeImageName: Swift.String
   public var draggersHorizontalInset: CoreGraphics.CGFloat
+  public var draggersWidth: CoreGraphics.CGFloat?
   public var draggersHeight: CoreGraphics.CGFloat?
+  public var draggersImageHeight: CoreGraphics.CGFloat?
   public var backgroundConfiguration: BanubaUtilities.BackgroundConfiguration
   public var playerControlsBackgroundConfiguration: BanubaUtilities.BackgroundConfiguration
   public var defaultLinesCount: Swift.Int
   public var timelineCornerRadius: CoreGraphics.CGFloat
   public var draggerBackgroundColor: UIKit.UIColor
+  public var draggerCornerRadius: CoreGraphics.CGFloat?
   public var timeLabelsOffset: CoreGraphics.CGFloat
   public var itemsTopOffset: CoreGraphics.CGFloat
   public var alertConfig: BanubaUtilities.AlertViewConfiguration
@@ -140,12 +143,15 @@ public struct OverlayControlButtonConfig {
     }
   }
   public let type: BanubaOverlayEditorSDK.OverlayControlButtonConfig.`Type`
-  public let imageName: Swift.String
+  public let imageName: Swift.String?
   public let selectedImageName: Swift.String?
   public let imageEdgeInsets: UIKit.UIEdgeInsets?
-  public init(type: BanubaOverlayEditorSDK.OverlayControlButtonConfig.`Type`, imageName: Swift.String, selectedImageName: Swift.String?, imageEdgeInsets: UIKit.UIEdgeInsets? = nil)
+  public var style: BanubaUtilities.TextConfiguration?
+  public init(type: BanubaOverlayEditorSDK.OverlayControlButtonConfig.`Type`, imageName: Swift.String? = nil, selectedImageName: Swift.String? = nil, imageEdgeInsets: UIKit.UIEdgeInsets? = nil, style: BanubaUtilities.TextConfiguration? = nil)
 }
 public struct OverlayItemConfiguration {
+  public var isRandomWaveColor: Swift.Bool
+  public var backgroundColor: UIKit.UIColor?
   public var borderColor: UIKit.UIColor
   public var cornerRadius: CoreGraphics.CGFloat
   public var borderWidth: CoreGraphics.CGFloat
