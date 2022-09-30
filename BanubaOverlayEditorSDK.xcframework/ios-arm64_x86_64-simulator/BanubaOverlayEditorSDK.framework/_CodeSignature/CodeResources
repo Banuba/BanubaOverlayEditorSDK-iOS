@@ -6,31 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		XpQ/dnCzv01xlUQjy5+8H9A+t/I=
-		</data>
-		<key>ColorCollectionViewCell.nib/objects-12.3+.nib</key>
-		<data>
-		UwhpIV4ctyv+VDM9Zb+EuJ+TzFs=
-		</data>
-		<key>ColorCollectionViewCell.nib/runtime.nib</key>
-		<data>
-		1EdiiOqTnzwn+nuZB+DCIjEGh2w=
-		</data>
-		<key>EditorQuestionViewController.storyboardc/Info.plist</key>
-		<data>
-		R88l4fAI1RBBhMZOZpJVmU2DzGk=
-		</data>
-		<key>EditorQuestionViewController.storyboardc/UIViewController-cPM-jD-ARI.nib</key>
-		<data>
-		4uZX/DQwtR9dNZ8GZAK1Wmfl/hs=
-		</data>
-		<key>EditorQuestionViewController.storyboardc/cPM-jD-ARI-view-cR8-AP-9Hw.nib</key>
-		<data>
-		Wjgic7Kmv7QpT1STwO7G3jNl9DU=
+		W6dFXHLrH0nyGRT1kQMIF5dmvXU=
 		</data>
 		<key>Headers/BanubaOverlayEditorSDK-Swift.h</key>
 		<data>
-		SG5GoJaix1qNsxOxTDAzktCK/FY=
+		k8RpWe8EiLRkmBpkzSl/cHdQO0M=
 		</data>
 		<key>Headers/BanubaOverlayEditorSDK.h</key>
 		<data>
@@ -38,67 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7QD+TiKw/vNUPjPoFqJWiVidy8o=
-		</data>
-		<key>InteractiveInterestViewController.storyboardc/Info.plist</key>
-		<data>
-		UOPrku7qjAsaLYo8H8ULB3tXbC0=
-		</data>
-		<key>InteractiveInterestViewController.storyboardc/JWm-WJ-rSu-view-Wpz-ut-RG5.nib/objects-12.3+.nib</key>
-		<data>
-		I5PGwwOzyWV0imJFyPHD97u9E/c=
-		</data>
-		<key>InteractiveInterestViewController.storyboardc/JWm-WJ-rSu-view-Wpz-ut-RG5.nib/runtime.nib</key>
-		<data>
-		3Up2TQcsRRdM6KlWNc/WcWhgxEc=
-		</data>
-		<key>InteractiveInterestViewController.storyboardc/UIViewController-JWm-WJ-rSu.nib/objects-12.3+.nib</key>
-		<data>
-		3Lxpjy+3jekPobbfGHJIwR+u5Bc=
-		</data>
-		<key>InteractiveInterestViewController.storyboardc/UIViewController-JWm-WJ-rSu.nib/runtime.nib</key>
-		<data>
-		3Lxpjy+3jekPobbfGHJIwR+u5Bc=
-		</data>
-		<key>InteractivePickerViewController.storyboardc/Dbc-ec-HTh-view-XcV-Fe-Y5R.nib</key>
-		<data>
-		GfI+KP16vtmE7uin5osZqBA8gXg=
-		</data>
-		<key>InteractivePickerViewController.storyboardc/Info.plist</key>
-		<data>
-		aH9Ac+NSYy2sXzqmnJT2Q27eVF8=
-		</data>
-		<key>InteractivePickerViewController.storyboardc/UIViewController-Dbc-ec-HTh.nib</key>
-		<data>
-		xU9bSmABK4mST9bE/7wgHZqW76M=
-		</data>
-		<key>InteractivePollViewController.storyboardc/5NM-ZK-EVw-view-yzG-k5-2wn.nib</key>
-		<data>
-		veSqYojREF6RWJjFGFwFqxApM0E=
-		</data>
-		<key>InteractivePollViewController.storyboardc/Info.plist</key>
-		<data>
-		eP9AIZB4qOXtBAY38ktK+KqKt5g=
-		</data>
-		<key>InteractivePollViewController.storyboardc/UIViewController-5NM-ZK-EVw.nib</key>
-		<data>
-		U5BOlxGLU0BOsRy5HM+jv6mRE/k=
-		</data>
-		<key>InteractiveTestSelectionView.nib</key>
-		<data>
-		pz+ao8C1zya4SRYnSuTlRNFDqYo=
-		</data>
-		<key>InteractiveTestViewController.storyboardc/5NM-ZK-EVw-view-yzG-k5-2wn.nib</key>
-		<data>
-		1AOcbak6snbXRGMHrLuty8ZCWYM=
-		</data>
-		<key>InteractiveTestViewController.storyboardc/Info.plist</key>
-		<data>
-		eP9AIZB4qOXtBAY38ktK+KqKt5g=
-		</data>
-		<key>InteractiveTestViewController.storyboardc/UIViewController-5NM-ZK-EVw.nib</key>
-		<data>
-		Oyjct/y0FRdAnz6/31rRCB5KgmU=
+		3h3hFV2F3aO9KQM1RbIDtLPiOz8=
 		</data>
 		<key>MainOverlayEditorViewController.storyboardc/Info.plist</key>
 		<data>
@@ -106,11 +26,11 @@
 		</data>
 		<key>MainOverlayEditorViewController.storyboardc/Q78-c0-yrw-view-ozt-qQ-yMp.nib/objects-12.3+.nib</key>
 		<data>
-		9SoB9x7q4mXTuRoLiGIBZ6adICw=
+		oyxRsJRhPFNbpHOfZ936V43Cy9A=
 		</data>
 		<key>MainOverlayEditorViewController.storyboardc/Q78-c0-yrw-view-ozt-qQ-yMp.nib/runtime.nib</key>
 		<data>
-		aMCE/5nLy39Luvc5mgruLRnEMAE=
+		0QlFIo38JTW04Z7nLE1ikG+9BAA=
 		</data>
 		<key>MainOverlayEditorViewController.storyboardc/UIViewController-Q78-c0-yrw.nib/objects-12.3+.nib</key>
 		<data>
@@ -122,39 +42,55 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		oQ02kUEDTLyg/C1S3aKBHeV7ytE=
+		nhPo+154Gzcnqb/qhmHJqao516A=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		TLWUx57LiC4dl9ghxHY+zAxugdY=
+		M2hOQJKC8STOuZ51Jmxh+ewiOVY=
+		</data>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		Tu9gwAn20hetdTdzApkACBKK7yM=
+		</data>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		kCDORNm/kx+HbQoUseBgw98nUN0=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GhthIr7cngwb3Fz/aisxKy38Wn0=
+		v8PmnYhL05jAL5ikrPOfEKkBgGA=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YMISM6/Z5inKj4SPzuz7/ml/nu4=
+		kCDORNm/kx+HbQoUseBgw98nUN0=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dgtsMIJkCDu3e39ewEWEnxp56Q0=
+		KE0sKFd7alJ6ee6QmaQzMSceW5I=
+		</data>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		Tu9gwAn20hetdTdzApkACBKK7yM=
+		</data>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		mHDbSpCkmDaKsK8XB3XFG+NP+sY=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IpKwMy23a8NWAmEr5kYqtXGQttU=
+		NBFJTRSf36OQTcN1Ap5LSgvusZI=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Z6jYhAIh9FslyP0J9YXh6w0fRGg=
+		mHDbSpCkmDaKsK8XB3XFG+NP+sY=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6kVekOCtOyabuwN5jyqdF+0u7SU=
+		nQj84Djx5+8t0pXEXlD01d7ACEk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		BLczVWTDutNzyt5gq7lV2iQMr9g=
+		fbpyM+0L6ePNWeaG4dNWt/MPk1I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -163,49 +99,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pSVZ2IMButlvtYDDBNiThJPhH3RfpSOzkS39YQqOG3I=
-			</data>
-		</dict>
-		<key>ColorCollectionViewCell.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X81oWqKzLaA9n1/+ABPrJqkXrG/Bt3f9wAiFnB8hjw8=
-			</data>
-		</dict>
-		<key>ColorCollectionViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kFeVKWJHKny08zBhOtxVZMVfA7f7Hzc2EYQShf0yBu8=
-			</data>
-		</dict>
-		<key>EditorQuestionViewController.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tW6iQXtV59mNk9bXy3oZVPEVwjkA8ymbi7SUWalFLj0=
-			</data>
-		</dict>
-		<key>EditorQuestionViewController.storyboardc/UIViewController-cPM-jD-ARI.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XCrQNn8o+RiHybT9qs8r4sZYhW7WWTb2mlqK0zDtfsI=
-			</data>
-		</dict>
-		<key>EditorQuestionViewController.storyboardc/cPM-jD-ARI-view-cR8-AP-9Hw.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G+JS6eYppPTRKtz0HPPi2i3CXuESUxaneMiAqxR6B8g=
+			5Aenk/xUhhpDWZ/5uLOOd1qfINOzAbfGzYIoMiVGg04=
 			</data>
 		</dict>
 		<key>Headers/BanubaOverlayEditorSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			81zPTltFRTGpmvmUaSvOu9YWRnX9ts2XqqnZ8L8wvRo=
+			I8qCLpGdwo+5LZ+a0MKJaWyLvItknkWxFUuiC+nW7J4=
 			</data>
 		</dict>
 		<key>Headers/BanubaOverlayEditorSDK.h</key>
@@ -213,111 +114,6 @@
 			<key>hash2</key>
 			<data>
 			DL6CL5A5rWtg1lwQUCsByoP8WjLDWEfM99vEk5zHyZE=
-			</data>
-		</dict>
-		<key>InteractiveInterestViewController.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QQLayrmz9AA9rScwwniBR1ZebToW5QL/Wpu2bVXh1mc=
-			</data>
-		</dict>
-		<key>InteractiveInterestViewController.storyboardc/JWm-WJ-rSu-view-Wpz-ut-RG5.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IIPZAqBYnewlit3WO51CvN0x4NF9nBgD5nJoUZMQRag=
-			</data>
-		</dict>
-		<key>InteractiveInterestViewController.storyboardc/JWm-WJ-rSu-view-Wpz-ut-RG5.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ny1WxEaFW2YBCM8+G6+egt+EuNNxspmJCzcGetXEefg=
-			</data>
-		</dict>
-		<key>InteractiveInterestViewController.storyboardc/UIViewController-JWm-WJ-rSu.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jF2I5SjEfVh4H5iYymJFLTvPvokvk1jpyE82uO+RsC4=
-			</data>
-		</dict>
-		<key>InteractiveInterestViewController.storyboardc/UIViewController-JWm-WJ-rSu.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jF2I5SjEfVh4H5iYymJFLTvPvokvk1jpyE82uO+RsC4=
-			</data>
-		</dict>
-		<key>InteractivePickerViewController.storyboardc/Dbc-ec-HTh-view-XcV-Fe-Y5R.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AxHx/Z4/hQhV3f9geBc0Ih7Mh54Cb9aPatrkLPLm4wM=
-			</data>
-		</dict>
-		<key>InteractivePickerViewController.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hLyKisQi8JF9ZIKjGQXOZtD86m4YNheRbvW1FdYtrXs=
-			</data>
-		</dict>
-		<key>InteractivePickerViewController.storyboardc/UIViewController-Dbc-ec-HTh.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4LPU2M/u8ts3Sb7lLkAVdnyYV1LvROsqZwhsCseno+Y=
-			</data>
-		</dict>
-		<key>InteractivePollViewController.storyboardc/5NM-ZK-EVw-view-yzG-k5-2wn.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4FNhxsnSnkdZgDH2sTsQ3dKihCDqM+of+cc8LuJ9vbc=
-			</data>
-		</dict>
-		<key>InteractivePollViewController.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zOzX397J6Y/Acl4N9icsCj1Arsk+wcQeaDJ7N1Wp3OU=
-			</data>
-		</dict>
-		<key>InteractivePollViewController.storyboardc/UIViewController-5NM-ZK-EVw.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vYB8jr+8dEdD8sEBmVb+B6X1v6EobGdsrv5opcKXPjM=
-			</data>
-		</dict>
-		<key>InteractiveTestSelectionView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HFT2z+TNG0X9V/3NjMfmWHT+SEK9tQcsBfSJIRi4uAY=
-			</data>
-		</dict>
-		<key>InteractiveTestViewController.storyboardc/5NM-ZK-EVw-view-yzG-k5-2wn.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hhbguR3YG7jZ2xj+8ZOvRDKCPzu77XZvYv87rTbmzTU=
-			</data>
-		</dict>
-		<key>InteractiveTestViewController.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zOzX397J6Y/Acl4N9icsCj1Arsk+wcQeaDJ7N1Wp3OU=
-			</data>
-		</dict>
-		<key>InteractiveTestViewController.storyboardc/UIViewController-5NM-ZK-EVw.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KwAmdFB6Gh1/sRdnRAoPtciMtpLNZBbcailgTXg3bCg=
 			</data>
 		</dict>
 		<key>MainOverlayEditorViewController.storyboardc/Info.plist</key>
@@ -331,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Ky3aA83HPv+cp6++NvX8rUz/ZH0EG430Jadffvjq+A=
+			AefhSy/Jsuwx+AZsRC0RD2aij1hFgZwaXEiGoIeGp7w=
 			</data>
 		</dict>
 		<key>MainOverlayEditorViewController.storyboardc/Q78-c0-yrw-view-ozt-qQ-yMp.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uomBwx5D7+f/YemYjSziTvNYFY5dbK//gnqOWw2ZRxQ=
+			92xaqTkz6U7eICS2FhqeRAvB942OstRGajObrbtGb08=
 			</data>
 		</dict>
 		<key>MainOverlayEditorViewController.storyboardc/UIViewController-Q78-c0-yrw.nib/objects-12.3+.nib</key>
@@ -359,63 +155,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KeSNvrc0L/pJbGAuQs27acsijND3xYqzW/rxQG5Dmkc=
+			vrmZRC4RpVzylyXXgzDzUQmtmh+L9/pbUEvaFsK/nEI=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NdczC1H0TX3YuGhsXZVOJRyQwzfYIYcGeanFY5oUW1M=
+			r975WWFVBe+QW3xDtsbdd797UDVQ35joJsw5uFHTkh4=
+			</data>
+		</dict>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8GSE56FkzXD3pSGQDL4FEfT2k4LkYcCKurUVlpP9sGI=
+			</data>
+		</dict>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JV6IaHTZ2scdOcm+aietsa/QrQI77po6Ic38dt6EJQ8=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P9oyvkXB2Wi4i85qO4+XVQlvKm7mq3ryUkjL16qVsyU=
+			kdW/Jfnje44YCBJU6/K9DuArNljwbyjWDkq2GiWkJ5M=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hPZe02p5h/3/CLBzhVxZpPxIOga2k4ymazKDjviYxjo=
+			JV6IaHTZ2scdOcm+aietsa/QrQI77po6Ic38dt6EJQ8=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U23aZjoi0ufXJDCJDYbfbCrsoVRR0ElzraS6M2005ME=
+			jSY9Zg/Px/bh6uKEFXIqGsGecbZL0VCWyD7p7wncdgw=
+			</data>
+		</dict>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8GSE56FkzXD3pSGQDL4FEfT2k4LkYcCKurUVlpP9sGI=
+			</data>
+		</dict>
+		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0tmJFpwhvi/eOEbBwnEXLKQyD31nafeMyEY0is13whE=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ehc/mvrK+islPNFI0PGQ08RwuOoSo3yEs2YazNu7pAI=
+			fy95NKZTyy/nUQntCesoTRzdx/OWVkBK40oPY2KuwtI=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABKEbWW1jsabAYlWDFfNn8MvNuRGtJviJTIx4oYaV3c=
+			0tmJFpwhvi/eOEbBwnEXLKQyD31nafeMyEY0is13whE=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			axpvVQ40NpOiGzMj3Hy2CKy08YbltY94YhOmJiloMi4=
+			WLX1Qt7hUrVQaWpg3k1hCDwSLl2osb5/bTwM3isQcSw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eAI11eoSFHQU5UD/yo1fcmLfg838RALS/gKHhIBgGec=
+			RRIzmM48F20rpdhOJXbJm3XEosgzjd/MLd6yRTipPCw=
 			</data>
 		</dict>
 	</dict>
