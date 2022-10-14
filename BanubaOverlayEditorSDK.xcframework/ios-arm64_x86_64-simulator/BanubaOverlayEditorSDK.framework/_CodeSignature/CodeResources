@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		W6dFXHLrH0nyGRT1kQMIF5dmvXU=
+		TBY7Xz77FbUsv4tpqBHjAIHz+Ck=
 		</data>
 		<key>Headers/BanubaOverlayEditorSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hqT0lqTrVULmt2UmFQ1fc6fRm0A=
+		9evyXiN8wfdnHFGKImLOO3NTzU8=
 		</data>
 		<key>MainOverlayEditorViewController.storyboardc/Info.plist</key>
 		<data>
@@ -40,53 +40,45 @@
 		<data>
 		TAWCWdmWMaj5saZMgcCpc+KLpY8=
 		</data>
-		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		7xtl0ddgwyDiRw9cA/xjUA1oUBA=
-		</data>
-		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		m/gTL/iq3cPsbDu5KZGqrqQR43g=
-		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tu9gwAn20hetdTdzApkACBKK7yM=
+		5Kf1u8AOE3k1NY7xJNmbfy+ce20=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kCDORNm/kx+HbQoUseBgw98nUN0=
+		kfE95R5Hob5qJlNzaQZ+S1ULDfI=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		v8PmnYhL05jAL5ikrPOfEKkBgGA=
+		tUbYQkY1Wk+RXVjHeG4r42B7Ezg=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kCDORNm/kx+HbQoUseBgw98nUN0=
+		kfE95R5Hob5qJlNzaQZ+S1ULDfI=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KE0sKFd7alJ6ee6QmaQzMSceW5I=
+		ooCDJkIMJ62r74tvj49oloeeIws=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Tu9gwAn20hetdTdzApkACBKK7yM=
+		5Kf1u8AOE3k1NY7xJNmbfy+ce20=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mHDbSpCkmDaKsK8XB3XFG+NP+sY=
+		tYaOJluhT7lGgkPWetkSSdJVDx0=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NBFJTRSf36OQTcN1Ap5LSgvusZI=
+		cjFQsxKj+X+DhqlL4fZLI+kaQF8=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mHDbSpCkmDaKsK8XB3XFG+NP+sY=
+		tYaOJluhT7lGgkPWetkSSdJVDx0=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nQj84Djx5+8t0pXEXlD01d7ACEk=
+		ZsgCVdZeM6sYmy1HGVEEgSYGt6k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Aenk/xUhhpDWZ/5uLOOd1qfINOzAbfGzYIoMiVGg04=
+			krsWFr7tgfnlu4INXk1m6I/Aa8UohVjD0hP/SvHPfSo=
 			</data>
 		</dict>
 		<key>Headers/BanubaOverlayEditorSDK-Swift.h</key>
@@ -151,88 +143,74 @@
 			BaatpJ/4X/c11NGWJwqFmnztiWDEStxomexnwS2JcLI=
 			</data>
 		</dict>
-		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			y8zRjo33nq2s70FGcN4w3Qmwlz1FhDVoqRgZX3e4/28=
-			</data>
-		</dict>
-		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			st2C0MwaqgX7ecuUPG3DdqylsD3ZNp58uBWv3PrOmZo=
-			</data>
-		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8GSE56FkzXD3pSGQDL4FEfT2k4LkYcCKurUVlpP9sGI=
+			SvpDyed8HTL6AtYe+dkjrOI23KyeyQa/wAjgnZ6BoHI=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JV6IaHTZ2scdOcm+aietsa/QrQI77po6Ic38dt6EJQ8=
+			KzDP0xizjBNsMlYTljthzXrc3I6ednlFQoGhJNhCSEM=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdW/Jfnje44YCBJU6/K9DuArNljwbyjWDkq2GiWkJ5M=
+			UeIl0Ld4dweOllolOnETBc6MS5iPYwzFRCsCZDY/zq0=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JV6IaHTZ2scdOcm+aietsa/QrQI77po6Ic38dt6EJQ8=
+			KzDP0xizjBNsMlYTljthzXrc3I6ednlFQoGhJNhCSEM=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jSY9Zg/Px/bh6uKEFXIqGsGecbZL0VCWyD7p7wncdgw=
+			b6sgPA4zTvpS7RnZKCqgUkWoODDw18IGS6j6hgKU1U8=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8GSE56FkzXD3pSGQDL4FEfT2k4LkYcCKurUVlpP9sGI=
+			SvpDyed8HTL6AtYe+dkjrOI23KyeyQa/wAjgnZ6BoHI=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0tmJFpwhvi/eOEbBwnEXLKQyD31nafeMyEY0is13whE=
+			GGejTOon6YmELMChqlpBS30JWQk1UNO8XMfxYY97ph0=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fy95NKZTyy/nUQntCesoTRzdx/OWVkBK40oPY2KuwtI=
+			hKsBs7NssnH6O1OXO6kbrp8M53fCn/IYlTbJuBLIBf4=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0tmJFpwhvi/eOEbBwnEXLKQyD31nafeMyEY0is13whE=
+			GGejTOon6YmELMChqlpBS30JWQk1UNO8XMfxYY97ph0=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WLX1Qt7hUrVQaWpg3k1hCDwSLl2osb5/bTwM3isQcSw=
+			7vUvK2Wrw504IrUBDXzkXfMfL8oz/H/7Crz41sdepWQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
