@@ -11038,616 +11038,616 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
       "kind": "FloatLiteral",
       "offset": 252,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
       "kind": "FloatLiteral",
       "offset": 315,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
       "kind": "FloatLiteral",
       "offset": 355,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
       "kind": "IntegerLiteral",
       "offset": 398,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/AutoscrollManager.swift",
       "kind": "FloatLiteral",
       "offset": 452,
       "length": 6,
       "value": "0.0001"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Services\/OverlayItemsManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Services\/OverlayItemsManager.swift",
       "kind": "Array",
       "offset": 254,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
       "kind": "FloatLiteral",
       "offset": 1005,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
       "kind": "FloatLiteral",
       "offset": 1049,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
       "kind": "BooleanLiteral",
       "offset": 885,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
       "kind": "BooleanLiteral",
       "offset": 1092,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
       "kind": "BooleanLiteral",
       "offset": 1295,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/UIEntities\/OverlayItemLineView.swift",
       "kind": "BooleanLiteral",
       "offset": 1990,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 328,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 397,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 462,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 550,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 609,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 4752,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 5103,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "StringLiteral",
       "offset": 3841,
       "length": 26,
       "value": "\"BanubaOverlayEditorSDK.MainOverlayEditorPresenter\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Services\/ViewControllerFactory.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Services\/ViewControllerFactory.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 33,
       "value": "\"MainOverlayEditorViewController\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Extensions\/UIColor.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Extensions\/UIColor.swift",
       "kind": "FloatLiteral",
       "offset": 421,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Extensions\/UIColor.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Extensions\/UIColor.swift",
       "kind": "FloatLiteral",
       "offset": 618,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 1150,
       "length": 33,
       "value": "\"BanubaOverlayEditorSDK.OverlayEditorNavigationController\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 1150,
       "length": 33,
       "value": "\"BanubaOverlayEditorSDK.OverlayEditorNavigationController\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 1150,
       "length": 33,
       "value": "\"BanubaOverlayEditorSDK.OverlayEditorNavigationController\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "FloatLiteral",
       "offset": 524,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "IntegerLiteral",
       "offset": 575,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "FloatLiteral",
       "offset": 612,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 27,
       "value": "\"BanubaOverlayEditorSDK.MainOverlayEditorInteractor\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "BooleanLiteral",
       "offset": 11459,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 8,
       "value": "0xE04864"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 8,
       "value": "0xF5C244"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 8,
       "value": "0xD963B6"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 8,
       "value": "0xD396CB"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 8,
       "value": "0x52B0B2"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 440,
       "length": 8,
       "value": "0x6BDBF2"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 488,
       "length": 8,
       "value": "0x4843D9"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "IntegerLiteral",
       "offset": 541,
       "length": 8,
       "value": "0x3D6BEE"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/Styles.swift",
       "kind": "FloatLiteral",
       "offset": 823,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
       "kind": "FloatLiteral",
       "offset": 228,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
       "kind": "FloatLiteral",
       "offset": 269,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
       "kind": "FloatLiteral",
       "offset": 310,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
       "kind": "FloatLiteral",
       "offset": 377,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
       "kind": "Dictionary",
       "offset": 2303,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/ViewControllers\/Main\/MainOverlayEditorViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 17086,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 30,
       "value": "\"EditButtonCollectionViewCell\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "FloatLiteral",
       "offset": 341,
       "length": 5,
       "value": "57.25"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 717,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 817,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 979,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1131,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1287,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Helpers\/EditButtonsCollectionViewHandler.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 32,
       "value": "\"BanubaOverlayEditorSDK.EditButtonsCollectionViewHandler\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
       "kind": "FloatLiteral",
       "offset": 227,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
       "kind": "FloatLiteral",
       "offset": 308,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
       "kind": "IntegerLiteral",
       "offset": 348,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/OverlayLinesDefaults.swift",
       "kind": "FloatLiteral",
       "offset": 410,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 22,
       "value": "\"OverlayEditor.Delete\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 34,
       "value": "\"Delete overlay item button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 20,
       "value": "\"OverlayEditor.Edit\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 32,
       "value": "\"Edit overlay item button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 504,
       "length": 20,
       "value": "\"OverlayEditor.Text\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 23,
       "value": "\"Add text button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 23,
       "value": "\"OverlayEditor.Sticker\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 649,
       "length": 26,
       "value": "\"Add sticker button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 31,
       "value": "\"OverlayEditor.Circle.Pixelate\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 782,
       "length": 34,
       "value": "\"Add circle pixelate button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 31,
       "value": "\"OverlayEditor.Square.Pixelate\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 922,
       "length": 34,
       "value": "\"Add square pixelate button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1006,
       "length": 22,
       "value": "\"OverlayEditor.Cancel\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1039,
       "length": 21,
       "value": "\"Cancel button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1105,
       "length": 20,
       "value": "\"OverlayEditor.Done\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1136,
       "length": 19,
       "value": "\"Done button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1194,
       "length": 19,
       "value": "\"OverlayEditor.Yes\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1224,
       "length": 27,
       "value": "\"Confirmation button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1289,
       "length": 18,
       "value": "\"OverlayEditor.No\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1318,
       "length": 25,
       "value": "\"Discarding button title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1398,
       "length": 52,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.title\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1461,
       "length": 45,
       "value": "\"Confirmation message for discarding changes\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1563,
       "length": 54,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.message\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1628,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1691,
       "length": 52,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.agree\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1754,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1820,
       "length": 55,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.disagree\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
       "offset": 1886,
       "length": 2,
