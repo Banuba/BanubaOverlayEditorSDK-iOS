@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FMJCvRI5+oh+g1Z8qOqs4REuwtY=
+		vviNXHUj+LsTj+6NuaZ0g6BhuEk=
 		</data>
 		<key>MainOverlayEditorViewController.storyboardc/Info.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bsYh4sOgY6V6pTCi4pAhPWzj9UY=
+		Yeo7kGpDjSMhwH+wvKwssfvfDwk=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8Hu+G2w0bg8M0eUdjJyhyErBJQU=
+		diDdOUuHaMz/OQQQ+id92F0qYOo=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bsYh4sOgY6V6pTCi4pAhPWzj9UY=
+		Yeo7kGpDjSMhwH+wvKwssfvfDwk=
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NYOShwDp6dLizWU9LLbWtvC4Xx0=
+		CFNYZAz8MnLB0yXdZYSLtjNtKKM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -147,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FjsKlcs/QOmW+t/RyhpcnVndcAPFe3iACHGvYXSTzi0=
+			WkytGSLZCLIvZxpQOqFIqTCRfkaUvjBIHnfOPq5OH/g=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -175,14 +175,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DuPJj8bKifzbxJ8wuf2czJBYDKhfEou1WY0D+qCyv/k=
+			7TSDQbhV8pxFobxPzDATbzEyPaPPCB0qgGInpYgB2GA=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FjsKlcs/QOmW+t/RyhpcnVndcAPFe3iACHGvYXSTzi0=
+			WkytGSLZCLIvZxpQOqFIqTCRfkaUvjBIHnfOPq5OH/g=
 			</data>
 		</dict>
 		<key>Modules/BanubaOverlayEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NFlcd5TnHmPkWetm5OhwwkILO8KDjJM+Dj72/6NKyK0=
+			HoCAf2Z2T78k8Nbk1QKBqkwXyFBF6ykdDjGzZ7NCTqM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
