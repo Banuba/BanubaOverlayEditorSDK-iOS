@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaOverlayEditorSDK
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaOverlayEditorSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 @_exported import BanubaOverlayEditorSDK
@@ -24,8 +24,6 @@ public struct OverlayEditorConfiguration {
   public init(mainOverlayViewControllerConfig: BanubaOverlayEditorSDK.MainOverlayViewControllerConfig, overlayType: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`, selectedOverlayItem: BanubaOverlayEditorSDK.OverlayItem? = nil)
 }
 public struct MainOverlayViewControllerConfig {
-  @available(*, unavailable, renamed: "addButtons")
-  public var editButtons: [BanubaOverlayEditorSDK.OverlayAddButtonConfig]?
   public var addButtons: [BanubaOverlayEditorSDK.OverlayAddButtonConfig]
   public var editButtonsHeight: CoreFoundation.CGFloat
   public var editButtonsInteritemSpacing: CoreFoundation.CGFloat
@@ -57,7 +55,7 @@ public struct OverlayAddButtonConfig {
   public enum `Type` : Swift.String {
     case text
     case sticker
-    case pixelate
+    case blur
     public var editioEffectType: VideoEditor.EditorEffectType {
       get
     }
@@ -163,16 +161,16 @@ public protocol OverlayItem : Foundation.NSCopying {
 public enum OverlayItemPresentationStyle : Swift.Equatable {
   case text(Swift.String)
   case image(UIKit.UIImage)
-  case pixelate(Swift.String)
+  case blur(Swift.String)
   public static func == (a: BanubaOverlayEditorSDK.OverlayItemPresentationStyle, b: BanubaOverlayEditorSDK.OverlayItemPresentationStyle) -> Swift.Bool
 }
-public class VideoOverlayObjectWithPixelate : BanubaOverlayEditorSDK.OverlayItem {
-  public var pixelateEffectId: Swift.UInt
-  public var pixelateCoordinateParams: BanubaUtilities.PixelateCoordinateParams
+public class VideoOverlayObjectWithBlur : BanubaOverlayEditorSDK.OverlayItem {
+  public var blurEffectId: Swift.UInt
+  public var blurCoordinateParams: BanubaUtilities.BlurCoordinateParams
   final public let id: Swift.String
   public var image: UIKit.UIImage
-  public var pixelateView: UIKit.UIView
-  public var pixelateFigure: BanubaUtilities.DrawableFigure
+  public var blurView: UIKit.UIView
+  public var blurFigure: BanubaUtilities.DrawableFigure
   public var startTime: CoreMedia.CMTime
   public var endTime: CoreMedia.CMTime
   public var presentationStyle: BanubaOverlayEditorSDK.OverlayItemPresentationStyle {
@@ -186,18 +184,18 @@ public class VideoOverlayObjectWithPixelate : BanubaOverlayEditorSDK.OverlayItem
   public var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`?
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
   public var order: Swift.Int
-  public init(id: Swift.String, pixelateEffectId: Swift.UInt, pixelateView: UIKit.UIView, pixelateFigure: BanubaUtilities.DrawableFigure, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, pixelateCoordinateParams: BanubaUtilities.PixelateCoordinateParams, frame: CoreFoundation.CGRect = .zero, transform: CoreFoundation.CGAffineTransform = .identity, order: Swift.Int = .zero)
+  public init(id: Swift.String, blurEffectId: Swift.UInt, blurView: UIKit.UIView, blurFigure: BanubaUtilities.DrawableFigure, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, blurCoordinateParams: BanubaUtilities.BlurCoordinateParams, frame: CoreFoundation.CGRect = .zero, transform: CoreFoundation.CGAffineTransform = .identity, order: Swift.Int = .zero)
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc deinit
 }
-extension BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate : Swift.Equatable {
-  public static func == (lhs: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate, rhs: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate) -> Swift.Bool
+extension BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur : Swift.Equatable {
+  public static func == (lhs: BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur, rhs: BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur) -> Swift.Bool
 }
 public protocol BanubaOverlayEditorDelegate : AnyObject {
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChooseOverlayWithId id: Swift.String)
-  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didAddPixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
-  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChangePixelateItem pixelateItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate)
-  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didDeletePixelateItem pixelateItem: BanubaOverlayEditorSDK.OverlayItem)
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didAddBlurItem blurItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur)
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didChangeBlurItem blurItem: BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur)
+  func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didDeleteBlurItem blurItem: BanubaOverlayEditorSDK.OverlayItem)
   func banubaOverlayEditorDidDone(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, withOverlayItems overlayItems: [BanubaOverlayEditorSDK.OverlayItem]?)
   func banubaOverlayEditorDidCancel(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor)
   func banubaOverlayEditor(overlayEditor: BanubaOverlayEditorSDK.BanubaOverlayEditor, didPresent message: Swift.String)

@@ -2927,8 +2927,8 @@
               },
               {
                 "kind": "Var",
-                "name": "pixelate",
-                "printedName": "pixelate",
+                "name": "blur",
+                "printedName": "blur",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -2958,8 +2958,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:22BanubaOverlayEditorSDK0B15AddButtonConfigV4TypeO8pixelateyA2EmF",
-                "mangledName": "$s22BanubaOverlayEditorSDK0B15AddButtonConfigV4TypeO8pixelateyA2EmF",
+                "usr": "s:22BanubaOverlayEditorSDK0B15AddButtonConfigV4TypeO4bluryA2EmF",
+                "mangledName": "$s22BanubaOverlayEditorSDK0B15AddButtonConfigV4TypeO4bluryA2EmF",
                 "moduleName": "BanubaOverlayEditorSDK"
               },
               {
@@ -7664,8 +7664,8 @@
           },
           {
             "kind": "Var",
-            "name": "pixelate",
-            "printedName": "pixelate",
+            "name": "blur",
+            "printedName": "blur",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -7708,8 +7708,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:22BanubaOverlayEditorSDK0B21ItemPresentationStyleO8pixelateyACSScACmF",
-            "mangledName": "$s22BanubaOverlayEditorSDK0B21ItemPresentationStyleO8pixelateyACSScACmF",
+            "usr": "s:22BanubaOverlayEditorSDK0B21ItemPresentationStyleO4bluryACSScACmF",
+            "mangledName": "$s22BanubaOverlayEditorSDK0B21ItemPresentationStyleO4bluryACSScACmF",
             "moduleName": "BanubaOverlayEditorSDK"
           },
           {
@@ -7856,13 +7856,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VideoOverlayObjectWithPixelate",
-        "printedName": "VideoOverlayObjectWithPixelate",
+        "name": "VideoOverlayObjectWithBlur",
+        "printedName": "VideoOverlayObjectWithBlur",
         "children": [
           {
             "kind": "Var",
-            "name": "pixelateEffectId",
-            "printedName": "pixelateEffectId",
+            "name": "blurEffectId",
+            "printedName": "blurEffectId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7872,8 +7872,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -7895,8 +7895,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7919,8 +7919,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -7937,8 +7937,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC16pixelateEffectIdSuvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC12blurEffectIdSuvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -7947,19 +7947,19 @@
           },
           {
             "kind": "Var",
-            "name": "pixelateCoordinateParams",
-            "printedName": "pixelateCoordinateParams",
+            "name": "blurCoordinateParams",
+            "printedName": "blurCoordinateParams",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PixelateCoordinateParams",
-                "printedName": "BanubaUtilities.PixelateCoordinateParams",
-                "usr": "s:15BanubaUtilities24PixelateCoordinateParamsV"
+                "name": "BlurCoordinateParams",
+                "printedName": "BanubaUtilities.BlurCoordinateParams",
+                "usr": "s:15BanubaUtilities20BlurCoordinateParamsV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0Vvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0Vvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0Vvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0Vvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -7975,14 +7975,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PixelateCoordinateParams",
-                    "printedName": "BanubaUtilities.PixelateCoordinateParams",
-                    "usr": "s:15BanubaUtilities24PixelateCoordinateParamsV"
+                    "name": "BlurCoordinateParams",
+                    "printedName": "BanubaUtilities.BlurCoordinateParams",
+                    "usr": "s:15BanubaUtilities20BlurCoordinateParamsV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0Vvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0Vvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0Vvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0Vvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7999,14 +7999,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "PixelateCoordinateParams",
-                    "printedName": "BanubaUtilities.PixelateCoordinateParams",
-                    "usr": "s:15BanubaUtilities24PixelateCoordinateParamsV"
+                    "name": "BlurCoordinateParams",
+                    "printedName": "BanubaUtilities.BlurCoordinateParams",
+                    "usr": "s:15BanubaUtilities20BlurCoordinateParamsV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0Vvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0Vvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0Vvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0Vvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8023,8 +8023,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0VvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC24pixelateCoordinateParams0A9Utilities0hjK0VvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0VvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC20blurCoordinateParams0A9Utilities0hjK0VvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8044,8 +8044,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2idSSvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2idSSvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2idSSvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2idSSvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "Final",
@@ -8069,8 +8069,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2idSSvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2idSSvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2idSSvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2idSSvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -8093,8 +8093,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -8116,8 +8116,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8140,8 +8140,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8158,8 +8158,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5imageSo7UIImageCvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5imageSo7UIImageCvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8168,8 +8168,8 @@
           },
           {
             "kind": "Var",
-            "name": "pixelateView",
-            "printedName": "pixelateView",
+            "name": "blurView",
+            "printedName": "blurView",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8179,8 +8179,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -8202,8 +8202,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8226,8 +8226,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8244,8 +8244,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC12pixelateViewSo6UIViewCvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8blurViewSo6UIViewCvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8254,8 +8254,8 @@
           },
           {
             "kind": "Var",
-            "name": "pixelateFigure",
-            "printedName": "pixelateFigure",
+            "name": "blurFigure",
+            "printedName": "blurFigure",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8265,8 +8265,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0Ovp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0Ovp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0Ovp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0Ovp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -8288,8 +8288,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0Ovg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0Ovg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0Ovg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0Ovg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8312,8 +8312,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0Ovs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0Ovs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0Ovs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0Ovs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8330,8 +8330,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0OvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC14pixelateFigure0A9Utilities08DrawableJ0OvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0OvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10blurFigure0A9Utilities08DrawableJ0OvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8351,8 +8351,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -8374,8 +8374,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8398,8 +8398,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8416,8 +8416,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9startTimeSo6CMTimeavM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9startTimeSo6CMTimeavM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8437,8 +8437,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -8460,8 +8460,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8484,8 +8484,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8502,8 +8502,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC7endTimeSo6CMTimeavM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC7endTimeSo6CMTimeavM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8523,8 +8523,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC17presentationStyleAA0b16ItemPresentationJ0Ovp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC17presentationStyleAA0b16ItemPresentationJ0Ovp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC17presentationStyleAA0b16ItemPresentationJ0Ovp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC17presentationStyleAA0b16ItemPresentationJ0Ovp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "AccessControl",
@@ -8544,8 +8544,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC17presentationStyleAA0b16ItemPresentationJ0Ovg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC17presentationStyleAA0b16ItemPresentationJ0Ovg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC17presentationStyleAA0b16ItemPresentationJ0Ovg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC17presentationStyleAA0b16ItemPresentationJ0Ovg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "accessorKind": "get"
               }
@@ -8564,8 +8564,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC10isEditableSbvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC10isEditableSbvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10isEditableSbvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10isEditableSbvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "AccessControl",
@@ -8585,8 +8585,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC10isEditableSbvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC10isEditableSbvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10isEditableSbvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10isEditableSbvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "accessorKind": "get"
               }
@@ -8605,8 +8605,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -8628,8 +8628,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8652,8 +8652,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8670,8 +8670,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5frameSo6CGRectVvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5frameSo6CGRectVvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8691,8 +8691,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -8714,8 +8714,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8738,8 +8738,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8756,8 +8756,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC9transformSo17CGAffineTransformVvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC9transformSo17CGAffineTransformVvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8785,8 +8785,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -8817,8 +8817,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8849,8 +8849,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8867,8 +8867,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4typeAA0B15AddButtonConfigV4TypeOSgvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4typeAA0B15AddButtonConfigV4TypeOSgvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8896,8 +8896,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -8928,8 +8928,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8960,8 +8960,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8978,8 +8978,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC8positionAA0B16ItemLinePositionCSgvM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC8positionAA0B16ItemLinePositionCSgvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8999,8 +8999,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivp",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivp",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivp",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -9022,8 +9022,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivg",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivg",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9046,8 +9046,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivs",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivs",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -9064,8 +9064,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivM",
-                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC5orderSivM",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC5orderSivM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -9075,13 +9075,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:pixelateEffectId:pixelateView:pixelateFigure:startTime:endTime:pixelateCoordinateParams:frame:transform:order:)",
+            "printedName": "init(id:blurEffectId:blurView:blurFigure:startTime:endTime:blurCoordinateParams:frame:transform:order:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VideoOverlayObjectWithPixelate",
-                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC"
+                "name": "VideoOverlayObjectWithBlur",
+                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC"
               },
               {
                 "kind": "TypeNominal",
@@ -9121,9 +9121,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PixelateCoordinateParams",
-                "printedName": "BanubaUtilities.PixelateCoordinateParams",
-                "usr": "s:15BanubaUtilities24PixelateCoordinateParamsV"
+                "name": "BlurCoordinateParams",
+                "printedName": "BanubaUtilities.BlurCoordinateParams",
+                "usr": "s:15BanubaUtilities20BlurCoordinateParamsV"
               },
               {
                 "kind": "TypeNominal",
@@ -9148,8 +9148,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2id16pixelateEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAtP0hrS0VSo6CGRectVSo17CGAffineTransformVSitcfc",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2id16pixelateEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAtP0hrS0VSo6CGRectVSo17CGAffineTransformVSitcfc",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2id12blurEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAtP0hrS0VSo6CGRectVSo17CGAffineTransformVSitcfc",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2id12blurEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAtP0hrS0VSo6CGRectVSo17CGAffineTransformVSitcfc",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "AccessControl",
@@ -9184,8 +9184,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
             "moduleName": "BanubaOverlayEditorSDK",
             "objc_name": "copyWithZone:",
             "declAttributes": [
@@ -9207,20 +9207,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoOverlayObjectWithPixelate",
-                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC"
+                "name": "VideoOverlayObjectWithBlur",
+                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC"
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoOverlayObjectWithPixelate",
-                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC"
+                "name": "VideoOverlayObjectWithBlur",
+                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2eeoiySbAC_ACtFZ",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC2eeoiySbAC_ACtFZ",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2eeoiySbAC_ACtFZ",
             "moduleName": "BanubaOverlayEditorSDK",
             "static": true,
             "declAttributes": [
@@ -9232,8 +9232,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC",
-        "mangledName": "$s22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC",
+        "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC",
+        "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC",
         "moduleName": "BanubaOverlayEditorSDK",
         "declAttributes": [
           "AccessControl",
@@ -9344,7 +9344,7 @@
           {
             "kind": "Function",
             "name": "banubaOverlayEditor",
-            "printedName": "banubaOverlayEditor(overlayEditor:didAddPixelateItem:)",
+            "printedName": "banubaOverlayEditor(overlayEditor:didAddBlurItem:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9359,14 +9359,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoOverlayObjectWithPixelate",
-                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC"
+                "name": "VideoOverlayObjectWithBlur",
+                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC018didAddPixelateItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
-            "mangledName": "$s22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC018didAddPixelateItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
+            "usr": "s:22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC014didAddBlurItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
+            "mangledName": "$s22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC014didAddBlurItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
             "moduleName": "BanubaOverlayEditorSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : BanubaOverlayEditorSDK.BanubaOverlayEditorDelegate>",
             "sugared_genericSig": "<Self where Self : BanubaOverlayEditorSDK.BanubaOverlayEditorDelegate>",
@@ -9380,7 +9380,7 @@
           {
             "kind": "Function",
             "name": "banubaOverlayEditor",
-            "printedName": "banubaOverlayEditor(overlayEditor:didChangePixelateItem:)",
+            "printedName": "banubaOverlayEditor(overlayEditor:didChangeBlurItem:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9395,14 +9395,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoOverlayObjectWithPixelate",
-                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithPixelate",
-                "usr": "s:22BanubaOverlayEditorSDK05VideoB18ObjectWithPixelateC"
+                "name": "VideoOverlayObjectWithBlur",
+                "printedName": "BanubaOverlayEditorSDK.VideoOverlayObjectWithBlur",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC021didChangePixelateItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
-            "mangledName": "$s22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC021didChangePixelateItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
+            "usr": "s:22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC017didChangeBlurItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
+            "mangledName": "$s22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC017didChangeBlurItemyAA0abC0C_AA05Videob10ObjectWithJ0CtF",
             "moduleName": "BanubaOverlayEditorSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : BanubaOverlayEditorSDK.BanubaOverlayEditorDelegate>",
             "sugared_genericSig": "<Self where Self : BanubaOverlayEditorSDK.BanubaOverlayEditorDelegate>",
@@ -9416,7 +9416,7 @@
           {
             "kind": "Function",
             "name": "banubaOverlayEditor",
-            "printedName": "banubaOverlayEditor(overlayEditor:didDeletePixelateItem:)",
+            "printedName": "banubaOverlayEditor(overlayEditor:didDeleteBlurItem:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9437,8 +9437,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC021didDeletePixelateItemyAA0abC0C_AA0bK0_ptF",
-            "mangledName": "$s22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC021didDeletePixelateItemyAA0abC0C_AA0bK0_ptF",
+            "usr": "s:22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC017didDeleteBlurItemyAA0abC0C_AA0bK0_ptF",
+            "mangledName": "$s22BanubaOverlayEditorSDK0abC8DelegateP06banubabC007overlayC017didDeleteBlurItemyAA0abC0C_AA0bK0_ptF",
             "moduleName": "BanubaOverlayEditorSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : BanubaOverlayEditorSDK.BanubaOverlayEditorDelegate>",
             "sugared_genericSig": "<Self where Self : BanubaOverlayEditorSDK.BanubaOverlayEditorDelegate>",
@@ -11166,21 +11166,21 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4752,
+      "offset": 4728,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5103,
+      "offset": 5079,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Presenters\/MainOverlayEditorPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 3841,
+      "offset": 3817,
       "length": 26,
       "value": "\"BanubaOverlayEditorSDK.MainOverlayEditorPresenter\""
     },
@@ -11208,56 +11208,56 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1118,
       "length": 33,
       "value": "\"BanubaOverlayEditorSDK.OverlayEditorNavigationController\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1118,
       "length": 33,
       "value": "\"BanubaOverlayEditorSDK.OverlayEditorNavigationController\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/NavigationController\/OverlayEditorNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1118,
       "length": 33,
       "value": "\"BanubaOverlayEditorSDK.OverlayEditorNavigationController\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 524,
+      "offset": 508,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 575,
+      "offset": 559,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 612,
+      "offset": 596,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 665,
+      "offset": 649,
       "length": 27,
       "value": "\"BanubaOverlayEditorSDK.MainOverlayEditorInteractor\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11459,
+      "offset": 11799,
       "length": 5,
       "value": "false"
     },
@@ -11516,140 +11516,140 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 740,
-      "length": 31,
-      "value": "\"OverlayEditor.Circle.Pixelate\""
+      "offset": 736,
+      "length": 27,
+      "value": "\"OverlayEditor.Circle.Blur\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 782,
-      "length": 34,
-      "value": "\"Add circle pixelate button title\""
+      "offset": 774,
+      "length": 30,
+      "value": "\"Add circle blur button title\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 880,
-      "length": 31,
-      "value": "\"OverlayEditor.Square.Pixelate\""
+      "offset": 864,
+      "length": 27,
+      "value": "\"OverlayEditor.Square.Blur\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 922,
-      "length": 34,
-      "value": "\"Add square pixelate button title\""
+      "offset": 902,
+      "length": 30,
+      "value": "\"Add square blur button title\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1006,
+      "offset": 982,
       "length": 22,
       "value": "\"OverlayEditor.Cancel\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 1015,
       "length": 21,
       "value": "\"Cancel button title\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 1081,
       "length": 20,
       "value": "\"OverlayEditor.Done\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1136,
+      "offset": 1112,
       "length": 19,
       "value": "\"Done button title\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1194,
+      "offset": 1170,
       "length": 19,
       "value": "\"OverlayEditor.Yes\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1224,
+      "offset": 1200,
       "length": 27,
       "value": "\"Confirmation button title\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 1265,
       "length": 18,
       "value": "\"OverlayEditor.No\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 1294,
       "length": 25,
       "value": "\"Discarding button title\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1398,
+      "offset": 1374,
       "length": 52,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.title\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1461,
+      "offset": 1437,
       "length": 45,
       "value": "\"Confirmation message for discarding changes\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1539,
       "length": 54,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.message\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1604,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1667,
       "length": 52,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.agree\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1730,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1796,
       "length": 55,
       "value": "\"com.banuba.overlayEditor.mainScreen.resetAll.disagree\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Entities\/Common\/LocalizedString.swift",
       "kind": "StringLiteral",
-      "offset": 1886,
+      "offset": 1862,
       "length": 2,
       "value": "\"\""
     }
