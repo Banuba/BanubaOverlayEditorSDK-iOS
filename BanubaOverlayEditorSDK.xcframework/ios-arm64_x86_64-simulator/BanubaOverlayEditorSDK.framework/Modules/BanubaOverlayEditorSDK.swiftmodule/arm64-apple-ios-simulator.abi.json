@@ -8553,6 +8553,92 @@
           },
           {
             "kind": "Var",
+            "name": "titleIndex",
+            "printedName": "titleIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivp",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivp",
+            "moduleName": "BanubaOverlayEditorSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivg",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivg",
+                "moduleName": "BanubaOverlayEditorSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivs",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivs",
+                "moduleName": "BanubaOverlayEditorSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivM",
+                "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC10titleIndexSivM",
+                "moduleName": "BanubaOverlayEditorSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isEditable",
             "printedName": "isEditable",
             "children": [
@@ -9075,7 +9161,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:blurEffectId:blurView:blurFigure:startTime:endTime:blurCoordinateParams:frame:transform:order:)",
+            "printedName": "init(id:blurEffectId:blurView:blurFigure:startTime:endTime:blurCoordinateParams:frame:transform:titleIndex:order:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9143,13 +9229,19 @@
                 "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
                 "hasDefaultArg": true,
                 "usr": "s:Si"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2id12blurEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAtP0hrS0VSo6CGRectVSo17CGAffineTransformVSitcfc",
-            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2id12blurEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAtP0hrS0VSo6CGRectVSo17CGAffineTransformVSitcfc",
+            "usr": "s:22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2id12blurEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform10titleIndex5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAuQ0hrS0VSo6CGRectVSo17CGAffineTransformVS2itcfc",
+            "mangledName": "$s22BanubaOverlayEditorSDK05VideoB14ObjectWithBlurC2id12blurEffectId0J4View0J6Figure9startTime03endP00J16CoordinateParams5frame9transform10titleIndex5orderACSS_SuSo6UIViewC0A9Utilities08DrawableN0OSo6CMTimeaAuQ0hrS0VSo6CGRectVSo17CGAffineTransformVS2itcfc",
             "moduleName": "BanubaOverlayEditorSDK",
             "declAttributes": [
               "AccessControl",
@@ -10527,12 +10619,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
+                "printedName": "((Swift.String?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
+                    "printedName": "(Swift.String?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -10541,9 +10633,17 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -10552,8 +10652,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvp",
-            "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvp",
+            "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvp",
+            "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvp",
             "moduleName": "BanubaOverlayEditorSDK",
             "protocolReq": true,
             "accessors": [
@@ -10565,12 +10665,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((Swift.String?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(Swift.String?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -10579,9 +10679,17 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
                           }
                         ]
                       }
@@ -10590,8 +10698,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvg",
-                "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvg",
+                "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvg",
+                "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvg",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : BanubaOverlayEditorSDK.OverlayItemDisplayable>",
                 "sugared_genericSig": "<Self where Self : BanubaOverlayEditorSDK.OverlayItemDisplayable>",
@@ -10612,12 +10720,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((Swift.String?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(Swift.String?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -10626,9 +10734,17 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
                           }
                         ]
                       }
@@ -10637,8 +10753,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvs",
-                "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvs",
+                "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvs",
+                "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvs",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : BanubaOverlayEditorSDK.OverlayItemDisplayable>",
                 "sugared_genericSig": "<Self where Self : BanubaOverlayEditorSDK.OverlayItemDisplayable>",
@@ -10658,8 +10774,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvM",
-                "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySScSgvM",
+                "usr": "s:22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvM",
+                "mangledName": "$s22BanubaOverlayEditorSDK0B15ItemDisplayableP013needsToSelectbE8LineViewySSSgcSgvM",
                 "moduleName": "BanubaOverlayEditorSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : BanubaOverlayEditorSDK.OverlayItemDisplayable>",
                 "sugared_genericSig": "<Self where Self : BanubaOverlayEditorSDK.OverlayItemDisplayable>",
@@ -11257,7 +11373,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaOverlayEditorSDK\/BanubaOverlayEditorSDK\/Interactors\/MainOverlayEditorInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11799,
+      "offset": 12406,
       "length": 5,
       "value": "false"
     },

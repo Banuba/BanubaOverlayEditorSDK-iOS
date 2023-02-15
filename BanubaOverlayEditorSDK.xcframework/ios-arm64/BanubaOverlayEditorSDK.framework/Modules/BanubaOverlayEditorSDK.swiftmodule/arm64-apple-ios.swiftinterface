@@ -176,6 +176,7 @@ public class VideoOverlayObjectWithBlur : BanubaOverlayEditorSDK.OverlayItem {
   public var presentationStyle: BanubaOverlayEditorSDK.OverlayItemPresentationStyle {
     get
   }
+  public var titleIndex: Swift.Int
   public var isEditable: Swift.Bool {
     get
   }
@@ -184,7 +185,7 @@ public class VideoOverlayObjectWithBlur : BanubaOverlayEditorSDK.OverlayItem {
   public var type: BanubaOverlayEditorSDK.OverlayAddButtonConfig.`Type`?
   public var position: BanubaOverlayEditorSDK.OverlayItemLinePosition?
   public var order: Swift.Int
-  public init(id: Swift.String, blurEffectId: Swift.UInt, blurView: UIKit.UIView, blurFigure: BanubaUtilities.DrawableFigure, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, blurCoordinateParams: BanubaUtilities.BlurCoordinateParams, frame: CoreFoundation.CGRect = .zero, transform: CoreFoundation.CGAffineTransform = .identity, order: Swift.Int = .zero)
+  public init(id: Swift.String, blurEffectId: Swift.UInt, blurView: UIKit.UIView, blurFigure: BanubaUtilities.DrawableFigure, startTime: CoreMedia.CMTime, endTime: CoreMedia.CMTime, blurCoordinateParams: BanubaUtilities.BlurCoordinateParams, frame: CoreFoundation.CGRect = .zero, transform: CoreFoundation.CGAffineTransform = .identity, titleIndex: Swift.Int, order: Swift.Int = .zero)
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc deinit
 }
@@ -229,7 +230,7 @@ public protocol OverlayItemConsumable : UIKit.UIViewController {
   func moveOverlayItem(_ overlayItem: BanubaOverlayEditorSDK.OverlayItem)
 }
 public protocol OverlayItemDisplayable : BanubaOverlayEditorSDK.OverlayItemConsumable {
-  var needsToSelectOverlayItemLineView: ((Swift.String) -> Swift.Void)? { get set }
+  var needsToSelectOverlayItemLineView: ((Swift.String?) -> Swift.Void)? { get set }
   var needsToSetupStateOverlayItem: ((Swift.String) -> Swift.Void)? { get set }
   func hideOverlayItems()
   func showOverlayItems()
